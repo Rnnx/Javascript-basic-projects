@@ -44,7 +44,6 @@ function countDown() {
    clearInterval(timerId)
    alert('GAME OVER! Your final score is ' + result)
  }
-
 }
 
 let countDownTimerId = setInterval(countDown, 1000)
